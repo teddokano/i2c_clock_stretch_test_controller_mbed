@@ -25,7 +25,7 @@ A bread board is used to pull-up SDA and SCL signal and connect boards and a log
 ![wiring.JPG](https://github.com/teddokano/i2c_clock_stretch_test_controller_mbed/blob/master/resource/wiring.JPG)
 _Wire colors on each boards: Yellow=SDA, Blue=SCL and White=GND_
 
-![pins.JPG](https://github.com/teddokano/i2c_clock_stretch_test_controller_mbed/blob/master/resource/pins.JPG)
+![pins.png](https://github.com/teddokano/i2c_clock_stretch_test_controller_mbed/blob/master/resource/pins.png)
 _Signals on the board_
 
 ## Sample data
