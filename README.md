@@ -6,7 +6,9 @@ The code runs on [FRDM-K64F](https://os.mbed.com/platforms/FRDM-K64F/).
 I²C signals are on [I2C_SDA (= PTE25) and I2C_SCL (= PTE24) pins](https://os.mbed.com/platforms/FRDM-K64F/#board-pinout). 
 
 ## Environment for build
-[Keil Studio Cloud](https://studio.keil.arm.com/)
+This code is inteded to be built on [Keil Studio Cloud](https://studio.keil.arm.com/).  
+[Next video](https://youtu.be/GgdiGiHg0kg?si=LGOp4DD5JSyCVfI7) explains how to import the project into the cloud environment.  
+[![importing.png](https://github.com/teddokano/i2c_clock_stretch_test_controller_mbed/blob/master/resource/importing.png)](https://youtu.be/GgdiGiHg0kg?si=LGOp4DD5JSyCVfI7)
 
 ## Demo setup
 A FRDM-K64F board works as an I²C controller and an LPC55S36-EVK works as an I²C target device.  
