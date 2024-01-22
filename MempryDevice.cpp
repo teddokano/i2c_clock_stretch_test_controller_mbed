@@ -2,12 +2,10 @@
 
 MemoryDevice::MemoryDevice( I2C& i2c_bus, char i2c_address ) : i2c( i2c_bus ), i2c_addr( i2c_address )
 {
-    wr_buff	= new char[ WR_BUFF_SIZE ];
 }
 
 MemoryDevice::~MemoryDevice()
 {
-    delete[]    wr_buff;
 }
 
 void MemoryDevice::write( int offset, const char *data, int length )

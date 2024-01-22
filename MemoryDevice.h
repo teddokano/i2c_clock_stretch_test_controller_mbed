@@ -14,6 +14,6 @@ public:
 private:
 	I2C&    i2c;
 	char    i2c_addr;
-    char    *wr_buff;
+	static inline char  wr_buff[ WR_BUFF_SIZE ];
 };
 
